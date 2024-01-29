@@ -16,7 +16,7 @@ Performance metrics:
 <img src='./images/hat_ap_50.png'>
 <img src='./images/hat_ap_50-95.png'>
 <img src='./images/hat_ar1_50-95.png'>
-<img src='./images/hat_ar1_50-95.png'>
+<img src='./images/hat_ar100_50-95.png'>
 <img src='./images/bdd_ap_50.png'>
 <img src='./images/bdd_ap_50-95.png'>
 <img src='./images/bdd_ar1_50-95.png'>
