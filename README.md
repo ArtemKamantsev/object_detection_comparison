@@ -1,10 +1,11 @@
-# DAMO-YOLO and YOLOv8 performance comparison based on train dataset size
+# DAMO-YOLO and YOLOv8 performance comparison depending on train dataset size
 This repo contains the code base for my MS graduation work.
-It compares performance of 3 object detection models (DAMO-YOLO-Ns, DAMO-YOLO-Nm and YOLOv8-m)
+It compares performance of 3 object detection models (DAMO-YOLO-Ns, DAMO-YOLO-Nm and YOLOv8-m) [[1]](#1)[[2]](#2) 
 based on the size of the dataset used for models train.
 
 Experiment setup:
-1. Experiment was successfully conducted on 2 datasets: Hard Hat Workers Dataset (HAT) and BDD100K (BDD).
+1. Experiment was successfully conducted on 2 datasets: Hard Hat Workers Dataset (HAT) [[3]](#3) 
+and BDD100K (BDD) [[4]](#4).
 2. Datasets were pre-processed to decrease task complexity and dataset peculiarities impact on the results
 as much as possible
 3. Models were trained until loss and metrics reached a plateau
@@ -39,3 +40,13 @@ and this number decreases with train set size increases.
 
 Trained weights could be found <a href='https://drive.google.com/file/d/1uiXQRvtUx_bLeS5oLyHaG6FA82E5RUuD/view?usp=sharing'>here</a>, 
 full text of research could be found <a href='https://drive.google.com/file/d/1kgWetNBR6Jpmgtvk6T27keDmlbZ1-vLw/view?usp=sharing'>here</a> (Ukrainian).
+
+References:
+
+<a id="1">[1]</a> https://github.com/tinyvision/DAMO-YOLO
+
+<a id="2">[2]</a>  https://github.com/ultralytics/ultralytics
+
+<a id="3">[3]</a>  https://public.roboflow.com/object-detection/hard-hat-workers
+
+<a id="4">[4]</a>  https://doc.bdd100k.com/download.html
