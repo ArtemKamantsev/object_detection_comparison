@@ -41,6 +41,22 @@ and this number decreases with train set size increases.
 Trained weights could be found <a href='https://drive.google.com/file/d/1uiXQRvtUx_bLeS5oLyHaG6FA82E5RUuD/view?usp=sharing'>here</a>, 
 full text of research could be found <a href='https://drive.google.com/file/d/1kgWetNBR6Jpmgtvk6T27keDmlbZ1-vLw/view?usp=sharing'>here</a> (Ukrainian).
 
+Code structure:
+1. 1_Analyze_datasets - calculate statistics for each bbox in dataset. 
+Roughly estimate hyperparameters for data selection (classes and target area)
+2. 2_Select_valid_data
+   1. Generate bbox for crop
+   2. Select valid classes
+   3. Sample items
+   4. Split items to the train/val/test sets
+   5. Generate datasets in Yolov8/COCO formats
+3. 3_Parse_damo_yolo_logs - plot statistics from DAMO-YOLO logs
+4. 4_Calculate_metrics - run YOLOv8 on validation sets 
+and calculate metrics using pycocotools lib (used in DAMO-YOLO lib for metrics calculation)
+5. 5_DAMO-YOLO - train DAMO-YOLO-ns/nm models
+6. 6_Yolo - train YOLOv8
+
+
 References:
 
 <a id="1">[1]</a> https://github.com/tinyvision/DAMO-YOLO
