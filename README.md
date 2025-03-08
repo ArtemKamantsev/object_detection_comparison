@@ -38,7 +38,8 @@ and this number decreases with train set size increases.
 6. All models have similar localization capability for all train set sizes.
     This capability increases and stabilizes with train set size growth.
 
-Trained weights could be found <a href='https://drive.google.com/file/d/1uiXQRvtUx_bLeS5oLyHaG6FA82E5RUuD/view?usp=sharing'>here</a>, 
+Paper based on research could be found <a href='https://drive.google.com/file/d/1g2iH_nLnyy3_m2XY_M_P_c3TgAz-ePv1/view?usp=sharing'>here</a> (English).
+Trained weights could be found <a href='https://drive.google.com/file/d/1cGe7GfJ5Hwnv7__ET6LcDBQZI7_aNydY/view?usp=sharing'>here</a>, 
 full text of research could be found <a href='https://drive.google.com/file/d/1kgWetNBR6Jpmgtvk6T27keDmlbZ1-vLw/view?usp=sharing'>here</a> (Ukrainian).
 
 Code structure:
