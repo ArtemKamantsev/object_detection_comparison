@@ -25,9 +25,6 @@ Performance metrics:
 <img src='./images/bdd_ap_50-95.png'>
 <img src='./images/bdd_ar1_50-95.png'>
 <img src='./images/bdd_ar100_50-95.png'>
-DAMO-YOLO models usually generate >100,000 candidates.
-Number of candidates produced by YOLOv8-m is:
-<img src='./images/yolov8-m_candidates.png'>
 
 Analysis:
 1. For large datasets, larger models are expected to achieve better detection accuracy.
